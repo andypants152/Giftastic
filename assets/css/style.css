@@ -1,6 +1,22 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: lightblue;
+    font-size: 16px;
+}
+
+#content{
+    width: 90%;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 8px;
+    margin: 5px;
+    padding: 0, 10, 0, 10;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
 }
 
 .gifs, 
@@ -11,8 +27,25 @@ body {
 
 .gifs {
     width: 70%;
+    height: 1px;
   }
+
+.item {
+    background-color: grey;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    margin: 2px;
+}
   
  .input {
     width: 30%;
+    background-color: white;
+    padding: 5px;
   }
+
+#add-celeb{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+}
